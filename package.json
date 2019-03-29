@@ -1,0 +1,7 @@
+{
+  "name": "map_rebuild",
+  "version": "1.0.0",
+  "dependencies": {
+    "material-datetime-picker": "latest"
+  }
+}
