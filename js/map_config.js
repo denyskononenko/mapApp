@@ -22,7 +22,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/deniskononenko/cjs31liib003u1fqj23vp010b',
     center: [30.4704022, 50.3901884],
-    zoom: 13,
+    zoom: 16,
     pitch: 0,
     hash: true
 });
