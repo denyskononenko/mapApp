@@ -86,8 +86,7 @@ const customLayer = {
             .multiply(rotationX)
             .multiply(rotationY)
             .multiply(rotationZ);
-
-        requestAnimationFrame(render);
+        
         this.camera.projectionMatrix.elements = matrix;
         this.camera.projectionMatrix = m.multiply(l);
         this.renderer.state.reset();
